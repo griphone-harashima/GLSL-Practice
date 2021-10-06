@@ -1,3 +1,4 @@
+// 拡散反射光の追加
 Shader "Custom/Sample4-2"
 {
     Properties

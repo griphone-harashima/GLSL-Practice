@@ -20,6 +20,7 @@
       <option value="$PROJECT_DIR$/Assets/HLSLShader-book/Chapter4/Sample4.shader" />
       <option value="$PROJECT_DIR$/Assets/HLSLShader-book/Chapter4/Sample4-2.shader" />
       <option value="$PROJECT_DIR$/Assets/HLSLShader-book/Chapter4/Sample4-3.shader" />
+      <option value="$PROJECT_DIR$/Assets/HLSLShader-book/Chapter4/Sampler4-4.shader" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1z5aG6KFv3ZJy9TAo7a5882K2jy" />
@@ -64,7 +65,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1633440304353</updated>
-      <workItem from="1633440339636" duration="11594000" />
+      <workItem from="1633440339636" duration="11669000" />
+      <workItem from="1633535740660" duration="1736000" />
     </task>
     <servers />
   </component>

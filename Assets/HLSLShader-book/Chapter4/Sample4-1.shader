@@ -1,3 +1,4 @@
+// ライティングなしの3Dモデル
 Shader "Custom/Sample4-1"
 {
     Properties

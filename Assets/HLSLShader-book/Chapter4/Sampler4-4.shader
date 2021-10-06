@@ -1,5 +1,5 @@
-// 鏡面反射光の追加
-Shader "Custom/Sample4-3"
+// 環境光の追加
+Shader "Custom/Sampler4-4"
 {
     Properties
     {
@@ -12,7 +12,7 @@ Shader "Custom/Sample4-3"
 
         Pass
         {
-           HLSLPROGRAM
+            HLSLPROGRAM
 
            #pragma vertex vert
            #pragma fragment frag
@@ -51,7 +51,7 @@ Shader "Custom/Sample4-3"
                 o.vertex = TransformObjectToHClip(v.vertex.xyz);
                 o.uv = TRANSFORM_TEX(v.uv, _MainTex);
 
-                // 頂点法線をピクセルシェーダーに渡す
+                // step-6 頂点法線をピクセルシェーダーに渡す
                 o.normal = v.normal; // 法線を回転させる
 
                 o.worldPos = v.vertex.xyz;
@@ -64,7 +64,7 @@ Shader "Custom/Sample4-3"
             {
                 Light light = GetMainLight();
                 
-                // ピクセルの法線とライトの方向の内積を計算する
+                // step-7 ピクセルの法線とライトの方向の内積を計算する
                 float t = dot(i.normal, light.direction);
 
                 // // 内積の結果に-1を乗算する
@@ -90,6 +90,11 @@ Shader "Custom/Sample4-3"
                 // 鏡面反射光を求める
                 float3 specularLig = light.color * t;
                 float3 lig = diffuseLig + specularLig;
+
+                // ライトの効果を一律で底上げする
+                lig.x += 0.3f;
+                lig.y += 0.3f;
+                lig.z += 0.3f;
 
                 // 拡散反射光と鏡面反射光を足し算して、最終的な光を求める
                 float4 finalColor = _MainTex.Sample(sampler_MainTex, i.uv);
