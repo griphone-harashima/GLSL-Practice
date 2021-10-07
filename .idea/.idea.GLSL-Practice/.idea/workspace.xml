@@ -11,6 +11,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../../../../Program Files (x86)/UnityEditors/2020.3.13f1/Editor/Data/CGIncludes/HLSLSupport.cginc" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.5.0/ShaderLibrary/Input.hlsl" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@10.5.0/ShaderLibrary/UnityInput.hlsl" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -24,6 +25,9 @@
       <option value="$PROJECT_DIR$/Assets/HLSLShader-book/Chapter4/Sample4-1.shader" />
       <option value="$PROJECT_DIR$/Assets/HLSLShader-book/Chapter5/Sample5-1.shader" />
       <option value="$PROJECT_DIR$/Assets/HLSLShader-book/Chapter5/Sample5-2.shader" />
+      <option value="$PROJECT_DIR$/Assets/HLSLShader-book/Chapter5/Sample5-3.shader" />
+      <option value="$PROJECT_DIR$/Assets/HLSLShader-book/Chapter5/CustomRimLight.shader" />
+      <option value="$PROJECT_DIR$/Assets/HLSLShader-book/Chapter5/Sample5-4.shader" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1z5aG6KFv3ZJy9TAo7a5882K2jy" />
@@ -69,7 +73,7 @@
       <option name="presentableId" value="Default" />
       <updated>1633440304353</updated>
       <workItem from="1633440339636" duration="11669000" />
-      <workItem from="1633535740660" duration="5826000" />
+      <workItem from="1633535740660" duration="16305000" />
     </task>
     <servers />
   </component>
