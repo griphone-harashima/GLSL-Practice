@@ -20,7 +20,6 @@
       <option value="$PROJECT_DIR$/Assets/HLSLShader-book/Sample2-1/Main.cs" />
       <option value="$PROJECT_DIR$/Assets/HLSLShader-book/Chapter4/Sample4.shader" />
       <option value="$PROJECT_DIR$/Assets/HLSLShader-book/Chapter4/Sampler4-4.shader" />
-      <option value="$PROJECT_DIR$/Assets/HLSLShader-book/Chapter4/Sample4-3.shader" />
       <option value="$PROJECT_DIR$/Assets/HLSLShader-book/Chapter4/Sample4-2.shader" />
       <option value="$PROJECT_DIR$/Assets/HLSLShader-book/Chapter4/Sample4-1.shader" />
       <option value="$PROJECT_DIR$/Assets/HLSLShader-book/Chapter5/Sample5-1.shader" />
@@ -28,6 +27,8 @@
       <option value="$PROJECT_DIR$/Assets/HLSLShader-book/Chapter5/Sample5-3.shader" />
       <option value="$PROJECT_DIR$/Assets/HLSLShader-book/Chapter5/CustomRimLight.shader" />
       <option value="$PROJECT_DIR$/Assets/HLSLShader-book/Chapter5/Sample5-4.shader" />
+      <option value="$PROJECT_DIR$/Assets/HLSLShader-book/Chapter6/Sample6-1.shader" />
+      <option value="$PROJECT_DIR$/Assets/HLSLShader-book/Chapter4/Sample4-3.shader" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1z5aG6KFv3ZJy9TAo7a5882K2jy" />
@@ -73,7 +74,8 @@
       <option name="presentableId" value="Default" />
       <updated>1633440304353</updated>
       <workItem from="1633440339636" duration="11669000" />
-      <workItem from="1633535740660" duration="16305000" />
+      <workItem from="1633535740660" duration="16354000" />
+      <workItem from="1633694561249" duration="6080000" />
     </task>
     <servers />
   </component>
